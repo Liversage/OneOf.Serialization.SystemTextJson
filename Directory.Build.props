@@ -1,0 +1,23 @@
+﻿<Project>
+    <PropertyGroup>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Authors>Martin Liversage</Authors>
+        <Description>System.Text.Json serialization support for OneOf types.</Description>
+        <Copyright>© 2023 Martin Liversage</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/Liversage/OneOf.Serialization.SystemTextJson</PackageProjectUrl>
+        <PackageTags>Json;OneOf;Serialization;SystemTextJson</PackageTags>
+        <Company>Liversage Consulting A/S</Company>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Nerdbank.GitVersioning" Version="3.6.133">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+</Project>
